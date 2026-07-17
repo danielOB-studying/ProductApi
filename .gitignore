@@ -1,0 +1,47 @@
+# Build artifacts
+bin/
+obj/
+
+# Visual Studio and editor folders
+.vs/
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Visual Studio Code workspace settings
+*.code-workspace
+
+# NuGet
+*.nupkg
+packages/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Entity Framework
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+
+# Rider local history
+.localhistory/
+
+# Build output
+*.dll
+*.pdb
+*.exe
+*.cache
+*.zip
+
+# Misc
+chat_0.json
