@@ -66,7 +66,7 @@ public class ProductsController : ControllerBase
 
         if (product is null)
         {
-            return NotFound(new { message = $"Product with id {id} was not found." });
+            return NotFound(new { message = $"No se encontró un producto con el id {id}." });
         }
 
         return Ok(product);
@@ -88,7 +88,7 @@ public class ProductsController : ControllerBase
 
         if (product is null)
         {
-            return NotFound(new { message = $"Product with id {id} was not found." });
+            return NotFound(new { message = $"No se encontró un producto con el id {id}." });
         }
 
         product.Name = dto.Name;
@@ -109,7 +109,7 @@ public class ProductsController : ControllerBase
 
         if (product is null)
         {
-            return NotFound(new { message = $"Product with id {id} was not found." });
+            return NotFound(new { message = $"No se encontró un producto con el id {id}." });
         }
 
         _context.Products.Remove(product);
